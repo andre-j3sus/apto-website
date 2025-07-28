@@ -37,11 +37,11 @@ const Header = () => {
           </nav>
 
           {/* CTA Button */}
-          <div className="hidden md:block">
+          {/* <div className="hidden md:block">
             <Button className="bg-primary hover:bg-primary/90">
               Agendar Consulta
             </Button>
-          </div>
+          </div> */}
 
           {/* Mobile Menu Button */}
           <button
@@ -67,9 +67,9 @@ const Header = () => {
                   {item.label}
                 </a>
               ))}
-              <Button className="bg-primary hover:bg-primary/90 mt-4">
+              {/* <Button className="bg-primary hover:bg-primary/90 mt-4">
                 Agendar Consulta
-              </Button>
+              </Button> */}
             </nav>
           </div>
         )}

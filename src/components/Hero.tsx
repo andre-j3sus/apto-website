@@ -3,7 +3,7 @@ import heroImage from "@/assets/hero-education.jpg";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -31,14 +31,15 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
               size="lg" 
-              className="bg-white text-education-blue hover:bg-white/90 font-semibold px-8 py-4 text-lg"
+              className="bg-white text-education-red hover:bg-white/90 font-semibold px-8 py-4 text-lg"
+              onClick={() => window.scrollTo({ top: document.getElementById('about')?.offsetTop, behavior: 'smooth' })}
             >
               Saiba Mais
             </Button>
-            <Button 
-              variant="outline" 
+            <Button
               size="lg"
-              className="border-white text-white hover:bg-white hover:text-education-blue font-semibold px-8 py-4 text-lg"
+              className="bg-white text-education-red hover:bg-white/90 font-semibold px-8 py-4 text-lg"
+              onClick={() => window.scrollTo({ top: document.getElementById('contact')?.offsetTop, behavior: 'smooth' })}
             >
               Contactar
             </Button>

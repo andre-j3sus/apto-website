@@ -36,14 +36,14 @@ All colors MUST be HSL.
     --input: 214.3 31.8% 91.4%;
     --ring: 0 84% 50%;
     
-    --education-blue: 0 84% 50%;
+    --education-red: 0 84% 50%;
     --education-light: 0 100% 97%;
     --education-dark: 0 84% 35%;
     --success-green: 142 76% 36%;
-    --gradient-hero: linear-gradient(135deg, hsl(var(--education-blue)), hsl(var(--education-dark)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--education-red)), hsl(var(--education-dark)));
     --gradient-card: linear-gradient(180deg, hsl(var(--background)), hsl(var(--education-light)));
-    --shadow-card: 0 4px 20px hsl(var(--education-blue) / 0.08);
-    --shadow-hero: 0 20px 60px hsl(var(--education-blue) / 0.15);
+    --shadow-card: 0 4px 20px hsl(var(--education-red) / 0.08);
+    --shadow-hero: 0 20px 60px hsl(var(--education-red) / 0.15);
 
     --radius: 0.5rem;
 
@@ -93,13 +93,13 @@ All colors MUST be HSL.
     --input: 217.2 32.6% 17.5%;
     --ring: 0 84% 60%;
     
-    --education-blue: 0 84% 60%;
+    --education-red: 0 84% 60%;
     --education-light: 220 25% 12%;
     --education-dark: 0 84% 40%;
-    --gradient-hero: linear-gradient(135deg, hsl(var(--education-blue)), hsl(var(--education-dark)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--education-red)), hsl(var(--education-dark)));
     --gradient-card: linear-gradient(180deg, hsl(var(--card)), hsl(var(--education-light)));
-    --shadow-card: 0 4px 20px hsl(var(--education-blue) / 0.15);
-    --shadow-hero: 0 20px 60px hsl(var(--education-blue) / 0.25);
+    --shadow-card: 0 4px 20px hsl(var(--education-red) / 0.15);
+    --shadow-hero: 0 20px 60px hsl(var(--education-red) / 0.25);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;

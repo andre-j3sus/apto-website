@@ -49,10 +49,7 @@ const Footer = () => {
                 <p>📍 Estrada de Benfica, 729, 1º Dto.</p>
                 <p>📞 217 649 008</p>
                 <p>📱 931 660 992</p>
-                <p>✉️ Apto@netcabo.pt</p>
-                <p className="pt-2 border-t border-primary-foreground/20">
-                  🆘 Assistência 24h: 962 609 261
-                </p>
+                <p>✉️ apto@netcabo.pt</p>
               </div>
             </div>
           </div>

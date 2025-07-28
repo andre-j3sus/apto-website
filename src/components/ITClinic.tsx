@@ -104,12 +104,15 @@ const ITClinic = () => {
                     <span className="font-medium">Disponível 24h/7 dias</span>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <Button className="bg-primary hover:bg-primary/90">
+                    <Button 
+                      className="bg-primary hover:bg-primary/90" 
+                      onClick={() => window.scrollTo({ top: document.getElementById('contact')?.offsetTop, behavior: 'smooth' })}
+                    >
                       Solicitar Assistência
                     </Button>
-                    <Button variant="outline">
+                    {/* <Button variant="outline">
                       Saber Mais
-                    </Button>
+                    </Button> */}
                   </div>
                 </div>
                 <div className="relative">
@@ -153,7 +156,7 @@ const ITClinic = () => {
           </div>
 
           {/* Contact Info */}
-          <div className="mt-16 text-center">
+          {/* <div className="mt-16 text-center">
             <Card className="bg-primary text-primary-foreground shadow-hero max-w-2xl mx-auto">
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold mb-4">Contacto de Emergência</h3>
@@ -162,11 +165,11 @@ const ITClinic = () => {
                 </p>
                 <div className="space-y-2 text-lg font-semibold">
                   <div>📞 962 609 261</div>
-                  <div>✉️ Aptoinformatica@gmail.com</div>
+                  <div>✉️ aptoinformatica@gmail.com</div>
                 </div>
               </CardContent>
             </Card>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

@@ -53,7 +53,7 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				education: {
-					blue: 'hsl(var(--education-blue))',
+					red: 'hsl(var(--education-red))',
 					light: 'hsl(var(--education-light))',
 					dark: 'hsl(var(--education-dark))'
 				},
