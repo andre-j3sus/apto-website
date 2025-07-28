@@ -17,16 +17,16 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 220 25% 15%;
 
-    --primary: 213 94% 42%;
+    --primary: 0 84% 50%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
+    --secondary: 0 100% 97%;
     --secondary-foreground: 220 25% 15%;
 
-    --muted: 210 40% 96.1%;
+    --muted: 0 100% 97%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 213 94% 42%;
+    --accent: 0 84% 50%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -34,11 +34,11 @@ All colors MUST be HSL.
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 213 94% 42%;
+    --ring: 0 84% 50%;
     
-    --education-blue: 213 94% 42%;
-    --education-light: 213 94% 96%;
-    --education-dark: 213 94% 28%;
+    --education-blue: 0 84% 50%;
+    --education-light: 0 100% 97%;
+    --education-dark: 0 84% 35%;
     --success-green: 142 76% 36%;
     --gradient-hero: linear-gradient(135deg, hsl(var(--education-blue)), hsl(var(--education-dark)));
     --gradient-card: linear-gradient(180deg, hsl(var(--background)), hsl(var(--education-light)));
@@ -74,7 +74,7 @@ All colors MUST be HSL.
     --popover: 220 25% 10%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 213 94% 52%;
+    --primary: 0 84% 60%;
     --primary-foreground: 220 25% 8%;
 
     --secondary: 217.2 32.6% 17.5%;
@@ -83,7 +83,7 @@ All colors MUST be HSL.
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 213 94% 52%;
+    --accent: 0 84% 60%;
     --accent-foreground: 220 25% 8%;
 
     --destructive: 0 62.8% 30.6%;
@@ -91,11 +91,11 @@ All colors MUST be HSL.
 
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
-    --ring: 213 94% 52%;
+    --ring: 0 84% 60%;
     
-    --education-blue: 213 94% 52%;
+    --education-blue: 0 84% 60%;
     --education-light: 220 25% 12%;
-    --education-dark: 213 94% 35%;
+    --education-dark: 0 84% 40%;
     --gradient-hero: linear-gradient(135deg, hsl(var(--education-blue)), hsl(var(--education-dark)));
     --gradient-card: linear-gradient(180deg, hsl(var(--card)), hsl(var(--education-light)));
     --shadow-card: 0 4px 20px hsl(var(--education-blue) / 0.15);
