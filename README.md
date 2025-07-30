@@ -32,9 +32,9 @@ This project is built with:
 
 ## Deployment
 
-This project is deployed on Cloudflare Workers.
+This project is automatically deployed to Cloudflare Workers using GitHub Actions, triggered by pushes to the main branch.
 
-To deploy, run the following command:
+To manually deploy, run the following command:
 
 ```sh
 npm run deploy
