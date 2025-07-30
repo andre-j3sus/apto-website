@@ -1,14 +1,14 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { 
-  HardDrive, 
-  Wifi, 
-  Shield, 
-  Monitor, 
+import {
+  HardDrive,
+  Wifi,
+  Shield,
+  Monitor,
   Camera,
   Clock,
   Wrench,
-  Download
+  Download,
 } from "lucide-react";
 import itClinicImage from "@/assets/it-clinic.jpg";
 
@@ -19,8 +19,8 @@ const ITClinic = () => {
       title: "Dados",
       items: [
         "Recuperação de dados / Backups",
-        "Transferência de dados para CD e DVD"
-      ]
+        "Transferência de dados para CD e DVD",
+      ],
     },
     {
       icon: <Wifi className="w-6 h-6" />,
@@ -28,23 +28,21 @@ const ITClinic = () => {
       items: [
         "Configuração de pacotes de acesso à Internet",
         "Configuração de contas de email (Outlook e Thunderbird)",
-        "Criação de Sites para o seu negócio ou a nível pessoal"
-      ]
+        "Criação de Sites para o seu negócio ou a nível pessoal",
+      ],
     },
     {
       icon: <Download className="w-6 h-6" />,
       title: "Software",
-      items: [
-        "Instalação de programas e respectivas actualizações"
-      ]
+      items: ["Instalação de programas e respectivas actualizações"],
     },
     {
       icon: <Wrench className="w-6 h-6" />,
       title: "Hardware",
       items: [
         "Instalação de periféricos (scanner, impressoras, discos rígidos)",
-        "Instalação de CD-ROM, placas de TV, webcam, máquinas digitais"
-      ]
+        "Instalação de CD-ROM, placas de TV, webcam, máquinas digitais",
+      ],
     },
     {
       icon: <Monitor className="w-6 h-6" />,
@@ -52,16 +50,16 @@ const ITClinic = () => {
       items: [
         "Instalação Windows 7, Windows XP, Windows Vista",
         "Configuração dos drivers dos periféricos",
-        "Instalação de antivírus para proteção do PC"
-      ]
+        "Instalação de antivírus para proteção do PC",
+      ],
     },
     {
       icon: <Shield className="w-6 h-6" />,
       title: "Antivírus",
       items: [
         "Remoção de vírus, trojans, spyware",
-        "Limpeza de cookies e publicidade enganosa"
-      ]
+        "Limpeza de cookies e publicidade enganosa",
+      ],
     },
     {
       icon: <Camera className="w-6 h-6" />,
@@ -69,9 +67,9 @@ const ITClinic = () => {
       items: [
         "Passagem de vídeo (VHS, HI8, etc.) para DVD",
         "Digitalização de fotografias para DVD",
-        "Conversão de ficheiros de vídeo para DVD"
-      ]
-    }
+        "Conversão de ficheiros de vídeo para DVD",
+      ],
+    },
   ];
 
   return (
@@ -80,9 +78,12 @@ const ITClinic = () => {
         <div className="max-w-6xl mx-auto">
           {/* Header */}
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">Clínica de Informática</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">
+              Clínica de Informática
+            </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Serviços técnicos especializados com assistência ao domicílio disponível 24 horas por dia.
+              Serviços técnicos especializados com assistência ao domicílio
+              disponível 24 horas por dia.
             </p>
           </div>
 
@@ -95,18 +96,24 @@ const ITClinic = () => {
                     Assistência 24 Horas
                   </h3>
                   <p className="text-lg text-muted-foreground mb-6">
-                    Dispomos de uma clínica de informática com serviço de assistência 
-                    ao domicílio, disponível 24 horas. Pode também optar por recorrer 
-                    aos serviços diretamente nas nossas instalações.
+                    Dispomos de uma clínica de informática com serviço de
+                    assistência ao domicílio, disponível 24 horas. Pode também
+                    optar por recorrer aos serviços diretamente nas nossas
+                    instalações.
                   </p>
                   <div className="flex items-center gap-3 mb-6">
                     <Clock className="w-5 h-5 text-primary" />
                     <span className="font-medium">Disponível 24h/7 dias</span>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <Button 
-                      className="bg-primary hover:bg-primary/90" 
-                      onClick={() => window.scrollTo({ top: document.getElementById('contact')?.offsetTop, behavior: 'smooth' })}
+                    <Button
+                      className="bg-primary hover:bg-primary/90"
+                      onClick={() =>
+                        window.scrollTo({
+                          top: document.getElementById("contact")?.offsetTop,
+                          behavior: "smooth",
+                        })
+                      }
                     >
                       Solicitar Assistência
                     </Button>
@@ -116,9 +123,9 @@ const ITClinic = () => {
                   </div>
                 </div>
                 <div className="relative">
-                  <img 
-                    src={itClinicImage} 
-                    alt="Clínica de Informática" 
+                  <img
+                    src={itClinicImage}
+                    alt="Clínica de Informática"
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-r from-background/20 to-transparent"></div>
@@ -130,7 +137,10 @@ const ITClinic = () => {
           {/* Services Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((service, index) => (
-              <Card key={index} className="hover:shadow-card transition-all duration-300 bg-card border-border">
+              <Card
+                key={index}
+                className="hover:shadow-card transition-all duration-300 bg-card border-border"
+              >
                 <CardHeader>
                   <div className="flex items-center gap-3 mb-2">
                     <div className="p-2 bg-primary/10 rounded-lg text-primary">
@@ -144,7 +154,10 @@ const ITClinic = () => {
                 <CardContent>
                   <ul className="space-y-2">
                     {service.items.map((item, idx) => (
-                      <li key={idx} className="text-sm text-muted-foreground flex items-start gap-2">
+                      <li
+                        key={idx}
+                        className="text-sm text-muted-foreground flex items-start gap-2"
+                      >
                         <div className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                         {item}
                       </li>

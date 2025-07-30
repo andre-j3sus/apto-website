@@ -11,7 +11,8 @@ const Footer = () => {
                 Centro de Explicações de Benfica
               </p>
               <p className="text-primary-foreground/80">
-                Apoio Pedagógico Total - A sua solução completa para o sucesso académico
+                Apoio Pedagógico Total - A sua solução completa para o sucesso
+                académico
               </p>
             </div>
 
@@ -20,22 +21,34 @@ const Footer = () => {
               <h4 className="text-lg font-semibold mb-4">Links Rápidos</h4>
               <ul className="space-y-2">
                 <li>
-                  <a href="#about" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
+                  <a
+                    href="#about"
+                    className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                  >
                     Sobre Nós
                   </a>
                 </li>
                 <li>
-                  <a href="#services" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
+                  <a
+                    href="#services"
+                    className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                  >
                     Serviços
                   </a>
                 </li>
                 <li>
-                  <a href="#pricing" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
+                  <a
+                    href="#pricing"
+                    className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                  >
                     Preçário
                   </a>
                 </li>
                 <li>
-                  <a href="#contact" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
+                  <a
+                    href="#contact"
+                    className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                  >
                     Contactos
                   </a>
                 </li>
@@ -56,7 +69,8 @@ const Footer = () => {
 
           <div className="border-t border-primary-foreground/20 pt-8 text-center">
             <p className="text-primary-foreground/80">
-              © 2024 APTO - Centro de Explicações de Benfica. Todos os direitos reservados.
+              © 2024 APTO - Centro de Explicações de Benfica. Todos os direitos
+              reservados.
             </p>
           </div>
         </div>
