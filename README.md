@@ -6,6 +6,8 @@ I studied in this tutoring center for 5 years, and taught there for 1 year, and 
 
 > **Note:** The base of this repo was created by [Lovable](https://lovable.dev/), and I have made some improvements and fixes.
 
+Deployed at [apto.pt](https://apto.pt).
+
 ## Development
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
