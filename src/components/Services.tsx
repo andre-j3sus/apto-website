@@ -37,16 +37,16 @@ const Services = () => {
       title: "Cursos de Informática",
       description: "Formação em informática desde iniciação até níveis avançados."
     },
-    {
-      icon: <Heart className="w-8 h-8" />,
-      title: "Apoio Psicológico",
-      description: "Acompanhamento psicológico para superar dificuldades de aprendizagem."
-    },
-    {
-      icon: <Users className="w-8 h-8" />,
-      title: "Educação Especial",
-      description: "Programas adaptados para necessidades educativas especiais."
-    },
+    // {
+    //   icon: <Heart className="w-8 h-8" />,
+    //   title: "Apoio Psicológico",
+    //   description: "Acompanhamento psicológico para superar dificuldades de aprendizagem."
+    // },
+    // {
+    //   icon: <Users className="w-8 h-8" />,
+    //   title: "Educação Especial",
+    //   description: "Programas adaptados para necessidades educativas especiais."
+    // },
     {
       icon: <Laptop className="w-8 h-8" />,
       title: "Clínica de Informática",
@@ -65,7 +65,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => (
             <Card 
               key={index} 
